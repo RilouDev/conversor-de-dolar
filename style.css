@@ -1,0 +1,76 @@
+body {
+    background-color: #F9F9F9;
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.topo-img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-conversor {
+    background-color: antiquewhite;
+    width: 500px;
+    padding: 15px;
+    margin: 20px auto 0;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    color: #333;
+}
+
+input {
+    width: 210px;
+    height: 35px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    margin-top: 15px;
+}
+
+button {
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    background-color: #F9F9F9;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.rodape-info {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.perfil-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.rodape-info h6 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+.rodape-info h6 a {
+    color:black;
+}
